@@ -1,0 +1,173 @@
+/*
+Theme Name: IntiBiome
+Author: Jonas Lima
+Description: Tema criado para o site IntiBiome
+Version: 1.0
+*/
+
+/* Header */
+
+header #logo-intibiome {
+    width: 12.188rem;
+    height: 4.938rem;
+}
+.header-nav .nav-item {
+    margin: 0 2.5rem;
+}
+
+.nav-link {
+    color: #fff;
+}
+.navbar-brand {
+    margin: 0 auto;
+    display: none;
+}
+.dropdow n-menu {
+    display: flex;
+}
+#logo-intibiome-mobile {
+    width: 9.375rem;
+}
+
+/* fontes e cores */
+.blue-bg {
+    background-color: #389CD6;
+}
+.green-bg {
+    background-color: #309D5F;
+}
+.pink-bg {
+    background-color: #EE6381;
+}
+.title-section, .text-section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title-section {
+    color: #389CD6;
+    font-weight: 600;
+}
+.text-section {
+    color: #7B7070;
+    font-weight: 300;
+}
+
+/* Intro */
+.intro {
+    width: 26.8rem;
+    padding: 5rem 0 0 0;
+}
+.intro2 {
+    width: 38rem;
+}
+
+.icons img{
+    width: 55rem;
+}
+/* Produtos */
+.card {
+    border: none;
+    box-shadow: 0px 3px 16px #00000014;
+    margin: 0 .5rem;
+}
+.card-category {
+    border-radius: 0 0 13px 13px;
+}
+/*
+.spline__list{
+    display: flex;
+    justify-content: center;
+}*/
+.splide__list li {
+    width: 25% !important;
+}
+
+/* Footer */
+  .footer {
+    width: 100%;
+    background-color: #389CD6;
+    padding: 20px 0;
+  }
+  .navbar-footer {
+    justify-content: center;
+  }
+  .navbar-footer .nav-link {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  footer nav ul {
+    list-style: none;
+  }
+
+  .footer-info {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .separator {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    width: 2px;
+    height: 20px;
+    vertical-align: middle;
+    background: white;
+  }
+  
+@media (max-width: 991px) {
+    header {
+        display: none;
+    }
+    .navbar-toggler {
+    position: absolute;
+    margin-left: 1rem;
+    top: 1rem;
+    }
+    .navbar-nav {
+        padding: 2rem 1.4rem;
+        height: 100vh;
+    }
+    .splide__list li {
+        width: 100% !important;
+    }
+    .navbar-brand{
+        display: block;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+    .navbar-ft {
+        background-color: #389CD6;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-collapse {
+        background-color: #389CD6;
+    }
+
+    .intro {
+        padding: 5rem 1rem 0 1rem;
+    }
+    .intro, .intro2 {
+        width: 100%;
+    }
+
+    .footer-info {
+        flex-direction: column-reverse;
+
+    }
+    .footer-info .logo-footer, .social {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+
+    .separator {
+        border-bottom: 2px solid rgb(255, 255, 255);
+        display: inline-block;
+        margin: 0 0 3px 0;
+        width: 1rem;
+        height: 0;
+      }
+}
